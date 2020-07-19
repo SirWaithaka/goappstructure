@@ -1,0 +1,15 @@
+
+application:
+  port: 2802
+
+database:
+  user: "sirwaithaka"
+
+  name: "test"
+  host: "localhost"
+  port: 5432
+  client: "postgresql"
+
+  ssl_cert_path: "/path/to/cert"
+  ssl_key_path: "/path/to/key"
+  root_cert_path: "/path/to/root/cert"
