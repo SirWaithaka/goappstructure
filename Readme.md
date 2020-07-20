@@ -9,15 +9,15 @@ I have found this structure to be simple, clean and scalable.
 
 ```
 .
-+-- app
-|   +-- entities
-|   +-- errorz
-|   +-- routing
-|   +-- params
-+-- configs
-+-- database
-+-- migrations
-+-- registry
++-- app/
+|   +-- entities/
+|   +-- errorz/
+|   +-- routing/
+|   +-- params/
++-- configs/
++-- database/
++-- migrations/
++-- registry/
 +-- config.yml
 +-- main.go
 ```
@@ -115,7 +115,7 @@ This directory has the wrapper struct for a database connection, and the logic t
 this case lets assume we are using `gorm` as our data access layer.
 
 ```
-+-- database
++-- database/
 |   +-- database.go
 |   +-- gorm.go
 ```
@@ -175,11 +175,11 @@ application. You can use whichever tool suites your poison.
 This directory contains all your business logic following a clean architecture pattern (sort of).
 
 ```
-+-- app
-|   +-- entities
-|   +-- errorz
-|   +-- params
-|   +-- routing
++-- app/
+|   +-- entities/
+|   +-- errorz/
+|   +-- params/
+|   +-- routing/
 ```
 
 #### app/entities - dir
