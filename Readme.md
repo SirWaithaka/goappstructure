@@ -5,6 +5,12 @@ budding idea, but still scales well for an enterprise scale solution?
 
 I have found this structure to be simple, clean and scalable.
 
+**PS:** _I am still working on the spec, it is unrefined_
+
+## TODO
+1. Add examples of application implementing this spec
+2. Where does the business logic fit into this structure, and how does to interface it.
+
 ## The Structure
 
 ```
